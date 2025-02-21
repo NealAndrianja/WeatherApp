@@ -7,7 +7,7 @@ const NotFoundScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Page Not Found</Text>
-            <Link href={"/(tabs)/index"}>Go back to home screen</Link>
+            <Link href={"/(tabs)"}>Go back to home screen</Link>
         </View>
     );
 };
